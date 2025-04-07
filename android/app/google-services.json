@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601856695796",
+    "project_id": "eyego-assignment",
+    "storage_bucket": "eyego-assignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601856695796:android:52483b19c396cb97e36da1",
+        "android_client_info": {
+          "package_name": "com.example.eyego_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQu1isrRLPcTf98xSpqjs81lO_KRaTyf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

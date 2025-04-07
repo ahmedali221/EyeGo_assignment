@@ -41,46 +41,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCrPoMMKdgOkA6uusRA8DpB32xfXOlBzXw',
-    appId: '1:772738524115:web:b178b1c009b49fb913c526',
-    messagingSenderId: '772738524115',
-    projectId: 'eyesgo-assignment',
-    authDomain: 'eyesgo-assignment.firebaseapp.com',
-    storageBucket: 'eyesgo-assignment.firebasestorage.app',
+    apiKey: 'AIzaSyC9cA-MmEiQsvYFnaoYDurFdXiILmYPy7I',
+    appId: '1:601856695796:web:4c32af06fcaf37d1e36da1',
+    messagingSenderId: '601856695796',
+    projectId: 'eyego-assignment',
+    authDomain: 'eyego-assignment.firebaseapp.com',
+    storageBucket: 'eyego-assignment.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDsaNzW3VNn0EdDOEwD8tpaRX7LnqR7jJg',
-    appId: '1:772738524115:android:04105f0988273c0013c526',
-    messagingSenderId: '772738524115',
-    projectId: 'eyesgo-assignment',
-    storageBucket: 'eyesgo-assignment.firebasestorage.app',
+    apiKey: 'AIzaSyDQu1isrRLPcTf98xSpqjs81lO_KRaTyf8',
+    appId: '1:601856695796:android:52483b19c396cb97e36da1',
+    messagingSenderId: '601856695796',
+    projectId: 'eyego-assignment',
+    storageBucket: 'eyego-assignment.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDBr9gtnQcSGpNaYk50NI_d81jBXXls2Ps',
-    appId: '1:772738524115:ios:2cd8fcec1837304913c526',
-    messagingSenderId: '772738524115',
-    projectId: 'eyesgo-assignment',
-    storageBucket: 'eyesgo-assignment.firebasestorage.app',
+    apiKey: 'AIzaSyAD14v-AEHOMcH5cgcWvr_dTt-IFaGXuec',
+    appId: '1:601856695796:ios:6efce70e25f39874e36da1',
+    messagingSenderId: '601856695796',
+    projectId: 'eyego-assignment',
+    storageBucket: 'eyego-assignment.firebasestorage.app',
     iosBundleId: 'com.example.eyegoAssignment',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDBr9gtnQcSGpNaYk50NI_d81jBXXls2Ps',
-    appId: '1:772738524115:ios:2cd8fcec1837304913c526',
-    messagingSenderId: '772738524115',
-    projectId: 'eyesgo-assignment',
-    storageBucket: 'eyesgo-assignment.firebasestorage.app',
+    apiKey: 'AIzaSyAD14v-AEHOMcH5cgcWvr_dTt-IFaGXuec',
+    appId: '1:601856695796:ios:6efce70e25f39874e36da1',
+    messagingSenderId: '601856695796',
+    projectId: 'eyego-assignment',
+    storageBucket: 'eyego-assignment.firebasestorage.app',
     iosBundleId: 'com.example.eyegoAssignment',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCrPoMMKdgOkA6uusRA8DpB32xfXOlBzXw',
-    appId: '1:772738524115:web:b3f9cb3d2d791b1513c526',
-    messagingSenderId: '772738524115',
-    projectId: 'eyesgo-assignment',
-    authDomain: 'eyesgo-assignment.firebaseapp.com',
-    storageBucket: 'eyesgo-assignment.firebasestorage.app',
+    apiKey: 'AIzaSyC9cA-MmEiQsvYFnaoYDurFdXiILmYPy7I',
+    appId: '1:601856695796:web:2731ff19d17d5fcce36da1',
+    messagingSenderId: '601856695796',
+    projectId: 'eyego-assignment',
+    authDomain: 'eyego-assignment.firebaseapp.com',
+    storageBucket: 'eyego-assignment.firebasestorage.app',
   );
 }

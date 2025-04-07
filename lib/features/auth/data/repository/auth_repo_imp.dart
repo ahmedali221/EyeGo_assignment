@@ -2,6 +2,7 @@ import 'package:eyego_assignment/features/auth/data/datasource/auth_firebase_dat
 import 'package:eyego_assignment/features/auth/data/model/auth_user_model.dart';
 import 'package:eyego_assignment/features/auth/domain/entities/auth_user.dart';
 import 'package:eyego_assignment/features/auth/domain/repository/auth_repo.dart';
+import 'package:flutter/widgets.dart';
 
 class AuthRepoImp extends AuthRepo {
   final AuthFirebaseDataSource _dataSource;
@@ -13,9 +14,9 @@ class AuthRepoImp extends AuthRepo {
     try {
       final user =
           await _dataSource.signInWithEmailAndPassword(email, password);
-      return user != null ? AuthUserModel.fromFirebase(user.user!) : null;
+      return AuthUserModel.fromFirebase(user.user!);
     } catch (e) {
-      throw (e.toString());
+      debugPrint(e.toString());
     }
   }
 
@@ -27,8 +28,7 @@ class AuthRepoImp extends AuthRepo {
           email, password, name);
       return AuthUserModel.fromFirebase(user);
     } catch (e) {
-      print(e.toString());
-      throw (e.toString());
+      debugPrint(e.toString());
     }
   }
 
@@ -36,15 +36,6 @@ class AuthRepoImp extends AuthRepo {
   Future<AuthUser?> getCurrentUser() async {
     final user = await _dataSource.getCurrentUser();
     return user != null ? AuthUserModel.fromFirebase(user) : null;
-  }
-
-  @override
-  Future<void> sendPasswordResetEmail(String email) async {
-    try {
-      await _dataSource.sendPasswordResetEmail(email);
-    } catch (e) {
-      throw (e.toString());
-    }
   }
 
   @override

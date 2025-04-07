@@ -8,6 +8,5 @@ abstract class AuthRepo {
   Future<void> signOut();
   Future<AuthUser?> getCurrentUser();
 
-  Future<void> sendPasswordResetEmail(String email);
   Stream<AuthUser?> authStateChanges();
 }

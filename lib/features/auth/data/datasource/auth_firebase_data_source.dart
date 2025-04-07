@@ -37,11 +37,6 @@ class AuthFirebaseDataSource {
   // Sign Out
   Future<void> signOut() async => _firebaseAuth.signOut();
 
-  // reset email
-  Future<void> sendPasswordResetEmail(String email) async {
-    await _firebaseAuth.sendPasswordResetEmail(email: email);
-  }
-
   // Checks auth state
   Stream<User?> authStateChanges() => _firebaseAuth.authStateChanges();
 }
